@@ -564,7 +564,7 @@ Created & Modified by Monkey, Lushnis, Pony, Dfox & DragonLee.
 	.plm { vertical-align: bottom !important; }
 	.plc, .pls { vertical-align: top; overflow: hidden; }
 		.plc { padding: 0 20px; }
-		.pls { width: 160px; background: {SPECIALBG}; overflow: hidden; border-right: 1px solid {CONTENTSEPARATE}; }
+		.pls { width: 170px; background: {SPECIALBG}; overflow: hidden; border-right: 1px solid {CONTENTSEPARATE}; }
 		.pls .avatar { margin: 10px 15px; }
 			.pls .avatar img { padding: 5px 5px 8px; background: #FFF url({IMGDIR}/midavt_shadow.gif) 0 100% repeat-x; }
 
@@ -574,7 +574,7 @@ Created & Modified by Monkey, Lushnis, Pony, Dfox & DragonLee.
 				.pls dt { margin-right: 3px; width: 60px; }
 				.pls dd { width: 65px; }
 	.ad .pls { background: {CONTENTSEPARATE}; padding: 0; height: 4px; }
-	.ad .plc { background: {SPECIALBG}; padding: 0; overflow: hidden; }
+	.ad .plc { background: {CONTENTSEPARATE}; padding: 0; overflow: hidden; }
 	.pl .pnv .pls { background: {SPECIALBG}; border: solid {SPECIALBORDER}; border-width: 0 1px 1px 0; line-height: 16px; }
 		.pl .pnv .tns p { font-size: 12px; }
 	.pl .pnv .plc { border-bottom: 1px solid {SPECIALBORDER}; }

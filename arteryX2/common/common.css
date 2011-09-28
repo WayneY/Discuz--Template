@@ -587,13 +587,14 @@ CSS 写作注意事项：
 			#hd .fastlg { padding-top: 10px; }
   #clanlong{height:78px;width auto;text-align:center;margin:17px 0 0 343px;background:url({IMGDIR}/free8_image2.gif) no-repeat 0 0;}
   #clanlongtail{height:78px;width auto;text-align:center;margin:0px;padding: 9px 13px 0 7px;background:url({IMGDIR}/free8_image3.gif) no-repeat 100% 0; }
-			#scbar { height: 33px;float:left} 
-				.scbar_icon_td { height:33px;width: 50px; background: url({IMGDIR}/search.png) no-repeat 0 -74px; }
-				.scbar_txt_td, .scbar_type_td {height:33px; }
-					#scbar_txt { width: 172px; border: 0px solid #FFF; outline: none; font-size: 14px; }
-				.scbar_btn_td { width: 50px; background: url({IMGDIR}/search.png) no-repeat 0 -296px; text-align: center; }
+			#scbar { height: 39px;float:left} 
+				.scbar_icon_td { height:39px;width: 46px; background: url({IMGDIR}/guide_logo.png); }
+				.scbar_txt_td, {height:39px;width:200px;background:url({IMGDIR}/search.png) no-repeat; }
+				/*	#scbar_txt { width: 200px; border: 0px solid #FFF; outline: none; font-size: 14px; } */
+					#scbar_txt { width: 200px;  font-size: 14px; } 
+				.scbar_btn_td { width: 50px; text-align: center; }
 					#scbar_btn { margin: 0; padding: 0; border: none; background: transparent none; }
-				.scbar_type_td { width:50px; }
+				.scbar_type_td {height:39px; width:50px; }
 					#scbar_type { display: block; padding-left: 5px; text-align: left; text-decoration: none; }
 						#scbar_type_menu { margin-top: -8px; }
 				#scbar_hot { padding-left: 8px; height: 45px; overflow: hidden; }
@@ -609,18 +610,20 @@ CSS 写作注意事项：
 					#sc_type_menu a { float: none; }
 				#pt #sc { margin: 3px 0 0 0; }				
 
-			#barlayer { overflow: hidden; padding-left: 3px; height: 33px;margin:0 0 0 343px; {MENUBGCODE}; }
-			#nv { overflow: hidden; padding-left: 3px; height: 33px;float:right;min-width:512px;{MENUBGCODE}; }
-				#nv li { float: left; padding-right: 1px; height: 33px; line-height: 33px; background: url({IMGDIR}/nv_a.png) no-repeat 100% 0; font-weight: 700; font-size: 14px; }
-					.ie_all #nv li { line-height: 36px; }
-					.ie6 #nv li { line-height: 33px; }
-					#nv li a { float: left; padding: 0 20px; height: 33px; }
+	.searchpn { vertical-align: middle; overflow: hidden; margin-right: 3px; padding: 0; height: 23px; border: 1px solid #999;  cursor: pointer;} 
+			#barlayer { overflow: hidden; height: 39px;margin:0 0 0 343px; {MENUBGCODE}; }
+	/*		#nv { overflow: hidden; padding-left: 3px; height: 33px;float:right;min-width:512px;{MENUBGCODE}; } */
+			#nv { overflow: hidden;  height: 39px;float:right;min-width:400px;{MENUBGCODE}; }
+				#nv li { float: left; height: 39px; line-height: 33px;min-width:72px; background:url({IMGDIR}/guide_button2.png) no-repeat;font-weight: 700; font-size: 14px; }
+					.ie_all #nv li { line-height: 39px; }
+					.ie6 #nv li { line-height: 39px; }
+					#nv li a { float: left; padding: 0 20px; height: 39px; }
 						#nv li a { color: {MENUTEXT}; }
 						#nv li span { display: none; }
-					#nv li.a { margin-left: -1px; {MENUHOVERBGCODE}; }
+					#nv li.a {  {MENUHOVERBGCODE}; }
 						#nv li.a a { color: {MENUHOVERTEXT}; }
-						#nv li a:hover { background: url({IMGDIR}/nv_a.png) no-repeat 50% -66px; }
-						#nv li.hover a:hover, #nv li.hover a { background: url({IMGDIR}/nv_a.png) no-repeat 50% -99px; }
+						#nv li a:hover { background: url({IMGDIR}/guide_button.png) no-repeat ; }
+						#nv li.hover a:hover, #nv li.hover a { background: url({IMGDIR}/guide_button.png) no-repeat;  }
 			#mu { position: relative; z-index: 1; }
 				.ie6 #mu, .ie7 #mu { line-height: 0; font-size: 0; }
 				#mu ul { background: url({IMGDIR}/mu_bg.png) no-repeat 0 100%; line-height: 22px; z-index: 2; font-size: 12px; }
@@ -646,7 +649,7 @@ CSS 写作注意事项：
 					#extcreditmenu_menu { margin-top: -1px; width: auto; }
 						#extcreditmenu_menu li { float: none; display: block; padding-left: 10px !important; padding-right: 3em !important; }
 
-				#qmenu { float: right; display: inline; margin: 3px 4px 0; padding: 0 12px 0 0; width: 83px; height: 26px; background: url({IMGDIR}/qmenu.png) no-repeat 0 0; line-height: 26px; text-align: center; color: {HIGHLIGHTLINK}; font-weight: 700; text-shadow: 0 1px 0 #FFF; overflow: hidden; }
+				#qmenu { float: right; display: inline; margin: 3px 4px 0; padding: 0 12px 0 0; width: 83px; height: 26px;  line-height: 26px; text-align: center; color: {HIGHLIGHTLINK}; font-weight: 700; text-shadow: 0 1px 0 #FFF; overflow: hidden; }
 					#qmenu:hover { text-decoration: none; }
 					#qmenu.a { position: relative; z-index: 302; background-position: 0 -30px; }
 					.ie8 #qmenu { line-height: 30px; }
